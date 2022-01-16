@@ -16,7 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'hansenkhi', // Usually your GitHub org/user name.
-  projectName: 'hansenkhi.github.io', // Usually your repo name.
+  projectName: 'hansenkhi.github.ioc', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
 
   presets: [
@@ -27,13 +27,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/HansenKhi/hansenkhi.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/HansenKhi/hansenkhi.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
