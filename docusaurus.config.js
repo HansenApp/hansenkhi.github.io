@@ -10,13 +10,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'HansenPHP',
   tagline: 'Simple easy | MVC',
-  url: 'http://localhost:3000',
+  url: 'https://hansenkhi.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hansenkhi', // Usually your GitHub org/user name.
+  projectName: 'hansenkhi.github.io', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
 
   presets: [
