@@ -18,6 +18,7 @@ const config = {
   organizationName: 'hansenkhi', // Usually your GitHub org/user name.
   projectName: 'hansenkhi.github.ioc', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   presets: [
     [
